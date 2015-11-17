@@ -1,0 +1,99 @@
+fileFormatVersion: 2
+guid: efd676e3af37b4eb1b5b8c70ffd0b7e4
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Cube
+    100002: //RootNode
+    100004: Plane_withou_t_Window
+    100006: Windows
+    100008: Windows_001
+    100010: YS-11
+    100012: YS-11_001
+    100014: YS-11_002
+    400000: Cube
+    400002: //RootNode
+    400004: Plane_withou_t_Window
+    400006: Windows
+    400008: Windows_001
+    400010: YS-11
+    400012: YS-11_001
+    400014: YS-11_002
+    2300000: Cube
+    2300002: Plane_withou_t_Window
+    2300004: Windows
+    2300006: Windows_001
+    2300008: YS-11
+    2300010: //RootNode
+    2300012: YS-11_001
+    2300014: YS-11_002
+    3300000: Cube
+    3300002: Plane_withou_t_Window
+    3300004: Windows
+    3300006: Windows_001
+    3300008: YS-11
+    3300010: //RootNode
+    3300012: YS-11_001
+    3300014: YS-11_002
+    4300000: Windows_001
+    4300002: Windows
+    4300004: Plane_withou_t_Window
+    4300006: YS-11
+    4300008: Cube
+    4300010: YS-11_002
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
