@@ -6,6 +6,7 @@ using System.Linq;
 public class ColorModeChanger : MonoBehaviour
 {
     public CloudLamp[] lamps;
+//    public ModuleArray moduleArray;
     
     [System.Serializable]
     public enum Mode
@@ -84,8 +85,9 @@ public class ColorModeChanger : MonoBehaviour
     void Start()
     {
 
-        //lamps = FindObjectsOfType(typeof(CloudLamp)) as CloudLamp[]; 
-        //mode = Mode.OneColor;
+        lamps = FindObjectsOfType(typeof(CloudLamp)) as CloudLamp[]; 
+        mode = Mode.OneColor;
+
         
     }
     

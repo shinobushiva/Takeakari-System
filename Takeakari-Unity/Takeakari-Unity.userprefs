@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ModuleColorUpdator.cs">
+    <Files>
+      <File FileName="Assets/Testing/ColorModeChanger.cs" Line="131" Column="39" />
+      <File FileName="Assets/Scripts/ModuleColorUpdator.cs" Line="131" Column="23" />
+      <File FileName="Assets/Chikaken/Scripts/ControlPanel.cs" Line="35" Column="36" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
