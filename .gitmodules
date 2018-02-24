@@ -1,0 +1,18 @@
+[submodule "Takeakari-Unity/Assets/Shared/DataSaveLoad"]
+	path = Takeakari-Unity/Assets/Shared/DataSaveLoad
+	url = https://github.com/shinobushiva/Unity-DataSaveLoad
+[submodule "Takeakari-Unity/Assets/Shared/Utils"]
+	path = Takeakari-Unity/Assets/Shared/Utils
+	url = https://github.com/shinobushiva/Unity-Utils
+[submodule "Takeakari-Unity/Assets/Shared/CameraSwitcher"]
+	path = Takeakari-Unity/Assets/Shared/CameraSwitcher
+	url = https://github.com/shinobushiva/Unity-CameraSwitcher
+[submodule "Takeakari-Unity/Assets/Shared/CameraSaveLoad"]
+	path = Takeakari-Unity/Assets/Shared/CameraSaveLoad
+	url = https://github.com/shinobushiva/Unity-CameraSaveLoad
+[submodule "Takeakari-Unity/Assets/Shared/ObjectLayer"]
+	path = Takeakari-Unity/Assets/Shared/ObjectLayer
+	url = https://github.com/shinobushiva/Unity-ObjectLayer
+[submodule "Takeakari-Unity/Assets/Shared/IconMenuUI"]
+	path = Takeakari-Unity/Assets/Shared/IconMenuUI
+	url = https://github.com/shinobushiva/Unity-IconMenuUI
