@@ -32,8 +32,13 @@ public class BibbleLightControl : MonoBehaviour {
         }
     }
 
+	public void OnBibbleServer(bool running) {
+		if (!running) {
+			buttonOneMode = 3;
+		}
+	}
+
     public void DataReceived(BibbleServer.ReceivedData rd){
-        print(rd);
 
         if (cmc)
         {

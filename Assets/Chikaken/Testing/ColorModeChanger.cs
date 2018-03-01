@@ -270,7 +270,11 @@ public class ColorModeChanger : MonoBehaviour
             
             ScorePlayMaster.Instance.Play();
         } else if (mode == Mode.None)
-        {
+		{
+			foreach (CloudLamp lamp in lamps) {
+				lamp.col = Color.black;
+				lamp.intaractive = false;
+			}
         } else if (mode == Mode.Custom)
         {
             if (customMode != null)

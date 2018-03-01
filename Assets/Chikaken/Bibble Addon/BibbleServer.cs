@@ -27,11 +27,17 @@ public class BibbleServer : MonoBehaviour
     public BibbleListContent bibbleListContentPrefab;
 
     public DataReceiveEvent onDataReceived;
+	public BibbleServerEvent onBibbleServer;
 
     [System.Serializable]
     public class DataReceiveEvent : UnityEvent<ReceivedData>
     {
     }
+
+	[System.Serializable]
+	public class BibbleServerEvent : UnityEvent<bool>
+	{
+	}
 
 
     [System.Serializable]
@@ -55,6 +61,10 @@ public class BibbleServer : MonoBehaviour
         {
             onDataReceived = new DataReceiveEvent();
         }
+
+		if (onBibbleServer == null) {
+			onBibbleServer = new BibbleServerEvent ();
+		}
 
     }
 
@@ -93,10 +103,14 @@ public class BibbleServer : MonoBehaviour
             running = true;
             toggle.isOn = running;
 
+			foreach (BibbleListContent blc in bibbleMap.Values) {
+				Destroy (blc.gameObject);
+			}
             bibbleMap.Clear();
 
             thread = new Thread(BibbleServerRoutine);
             thread.Start();
+			onBibbleServer.Invoke (true);
         }
     }
 
@@ -122,6 +136,7 @@ public class BibbleServer : MonoBehaviour
                 ns.Close();
                 ns = null;
             }
+			onBibbleServer.Invoke (false);
             Debug.Log("サーバーを終了しました");
         }
     }
