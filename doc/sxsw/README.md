@@ -285,7 +285,7 @@ Unityが起動したら上部の再生ボタンをクリックする。
 
 ![](assets/image-bcbc1af4.png)
 
-暫く待つと、Biblleの情報が表示される
+暫く待つと、Bibbleの情報が表示される
 
 左からBibbleのUID, 概算距離、ボタン操作
 
