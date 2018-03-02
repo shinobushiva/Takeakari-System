@@ -4,11 +4,6 @@
 2018/03/02
 Shinobu Izumi (stagesp1@gmail.com)
 
-# Macのログイン
-アカウント：SXSW （管理者）
-
-パスワード：sxsw
-
 # 1. ハードウェア設定
 
 ## Arduinoの設定
