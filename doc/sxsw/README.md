@@ -47,9 +47,9 @@ Arudion IDEを起動する
 
 ![](assets/image-03548ca6.png)
 
-![](assets/image-30e95ef6.png)
+![](assets/README-4cc03d63.png)
 
-メニューのツールからボード Arduino/Genuino Uno を選択する
+メニューのツールからボード Arduino Pro or Pro Mini を選択する
 
 ![](assets/image-0f1cdffc.png)
 
